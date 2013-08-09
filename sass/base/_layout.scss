@@ -1,4 +1,5 @@
 $max-width: 800px;
+$imgPath: '/minime/images';
 
 *{
 	margin: 0;
@@ -8,7 +9,7 @@ body{
     font-family: 'Amethysta', serif;
 	font-weight: 300;
 	font-size: 18px;
-	background: url('/images/retina_dust.png'); 
+	background: url(#{$imgPath}/retina_dust.png); 
 	color: #444;
 	colori: $color-gray01;
 	@media screen and (max-width: 1040px){
@@ -71,10 +72,10 @@ a{
     height:51px;
     border:none;
     text-indent:-999px;
-    background:url(/images/totop.png) no-repeat   left top;
+    background:url(#{$imgPath}/totop.png) no-repeat   left top;
 }
 #w2btoTopHover {
-    background:url(/images/totop.png) no-repeat left -51px;
+    background:url(#{$imgPath}/totop.png) no-repeat left -51px;
     width:51px;
     height:51px;
     display:block;

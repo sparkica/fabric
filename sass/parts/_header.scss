@@ -1,3 +1,8 @@
+//Vars
+$imgPath : "/minime/images";
+
+
+
 #header{
 	padding: 20px 0 20px 0;
 	@media screen and (max-width: 1040px){
@@ -66,7 +71,7 @@
     position: absolute;
     right: 50%;
     top: 50%;
-    background: url('/images/loading.gif');
+    background: url(#{$imgPath}/loading.gif);
     width: 50px;
     height: 50px;
     text-indent: -9999em;
@@ -124,16 +129,16 @@
   }
 }
 
-a.facebook{background:url('/images/social/Facebook.png') center no-repeat;}
+a.facebook{background:url(#{$imgPath}/social/Facebook.png) center no-repeat;}
 a.facebook:hover{background:url('/images/social/FacebookH.png') center no-repeat;}
 
-a.github{background:url('/images/social/Github.png') center no-repeat;}
+a.github{background:url(#{$imgPath}/social/Github.png) center no-repeat;}
 a.github:hover{background:url('/images/social/GithubH.png') center no-repeat;}
 
-a.twitter{background:url('/images/social/Twitter.png') center no-repeat;}
+a.twitter{background:url(#{$imgPath}/social/Twitter.png) center no-repeat;}
 a.twitter:hover{background:url('/images/social/TwitterH.png') center no-repeat;}
 
-a.google{background:url('/images/social/Picasa.png') center no-repeat;}
+a.google{background:url(#{$imgPath}/social/Picasa.png) center no-repeat;}
 a.google:hover{background:url('/images/social/PicasaH.png') center no-repeat;}
 
 a.skype{background:url('/images/social/Skype.png') center no-repeat;}
@@ -155,7 +160,7 @@ display: inline;
 }
 
 #search input[type="text"] {
-    background: url('/images/search-dark.png') no-repeat 10px 6px #444;
+    background: url(#{$imgPath}/search-dark.png) no-repeat 10px 6px #444;
     border: 0 none;
     font: bold 12px Arial,Helvetica,Sans-serif;
     color: #777;
@@ -188,7 +193,7 @@ display: inline;
 }
 
 #dark #search input[type="text"] {
-    background: url('/images/search-dark.png') no-repeat 10px 6px #444;
+    background: url(#{$imgPath}/search-dark.png) no-repeat 10px 6px #444;
     border: 0 none;
     font: bold 12px Arial,Helvetica,Sans-serif;
     color: #ddd;
@@ -248,7 +253,7 @@ ul#nav li a:hover {
     color: #fff;
     font-style: normal;
     font-weight: normal;
-    background-image: url('/images/hover.png');
+    background-image: url(#{$imgPath}/hover.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -258,7 +263,7 @@ ul#nav li a:active {
 }
 ul#nav li#active a {
     color: #FFF;
-    background-image: url('/images/active.png');
+    background-image: url(#{$imgPath}/active.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
